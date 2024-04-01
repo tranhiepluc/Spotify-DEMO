@@ -1,0 +1,86 @@
+:root{
+    --black-color:#000;
+    --background-color:#121212;
+    --text-color:#fff;
+    --gray-color:#a6a6a6;
+
+}
+
+*{
+    box-sizing:inherit ;
+    /* inherit:kế thừa từ thẻ chứa nó*/
+}
+html{
+    /* 1rem = 16px */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    color: #a6a6a6;
+    margin: 0;
+    background-color: black;
+    
+}
+
+/*responsive*/
+.grid{
+    margin: 0 20px;
+}
+
+.grid_1{
+    display: flex;
+    margin: 12px 8px 0 8px;
+
+    justify-content: space-between;
+}
+
+.grid__full-width{
+    width: 100%;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.grip__column-4{
+    width: 19.3333%;
+}
+
+.grip__column-2-4{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+}
+
+.grip__column-8{
+    margin-left: 7px;
+    width: 80.6667%;
+}
+
+.grid__column-8-5{
+    width: 20%;
+    margin: 0 -11px;
+    border-radius: 5px;
+   
+}
+
+
+
+
+.container{
+    height: 637px;
+    display: flex;
+}
+
+
+.grid-left-10{
+    margin-left: -10px;
+}
+
+.grid-right-15{
+    margin: 0 20px;
+}
+
+

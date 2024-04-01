@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>spotifyTHL</title>
+</head>
+<body>
+    <div class="app">
+        <div class="main">
+            <!--left item-->
+            <div class="container">
+                <div class="grip__column-4">
+                    <!--header-->
+                    <div class="header">
+                        <ul class="header-list">
+                            <div class="grid">
+                                <li class="header-list__item header-list__home">
+                                    <a href="" class="header-link header-link__home">
+                                        <i class="header-list__icon fa-solid fa-house"></i>
+                                        Trang chủ
+                                    </a>
+                                </li>
+                                <li class="header-list__item header-list__search">
+                                    <a href="" class="header-link header-link__search ">
+                                        <i class="header-list__icon fa-solid fa-magnifying-glass"></i>
+                                        Tìm kiếm
+                                    </a>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                    <!--header body-->
+                    <div class="header__body">
+                        <div class="grid">
+                            <div class="navbar">
+                                <div class="navbar_library navbar_library-left">
+                                    <div class="navbar_library-note" >Thu gọn thư viện</div>
+                                    <i class=" fa-solid fa-bars"></i>
+                                    Thư viện
+                                </div>
+
+                                <div class="navbar_library navbar_library-right">
+                                    <span class="navbar__circle ">
+                                        <div class="navbar__circle-note1">Tạo danh sách phát hoặc thư mục</div>
+                                        <i class="navbar__circle-icon fa-solid fa-plus"></i>
+                                    </span>
+                                    <span class="navbar__circle ">
+                                        <div class="navbar__circle-note2">Xem thêm</div>
+                                        <i class="navbar__circle-icon fa-solid fa-arrow-right"></i>     
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="grid-left-10">
+                                <div class="suggest">
+                                    <span class="navbar__suggest navbar__suggest-list">Danh sách phát</span>
+                                    <span class="navbar__suggest navbar__suggest-artist">Nghệ sĩ</span>
+                                </div>
+
+                                <div class="search">
+                                    <div class="navbar__search navbar__circle-1 ">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </div>
+
+                                    <div class="navbar__recently">
+                                        Gần đây
+                                        <i class="fa-solid fa-list-ul"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <ul class="navbar-list">
+                                <i class="navbar-list__item">
+                                    <a href="" class="navbar-list__item-link">
+                                        <img src="./assets/img/sontungmtp.jpg" alt="" class="navbar-list__item-img" >
+                                        <div class="navbar-list__nickmane">
+                                            <div class="navbar-list__name">Sơn Tùng M-TP</div>
+                                            <div class="navbar-list__artist">Nghệ sĩ</div>
+                                        </div>
+                                    </a>
+                                </i>
+
+                                <i class="navbar-list__item">
+                                    <a href="" class="navbar-list__item-link">
+                                        <img src="./assets/img/lynklee.jpg" alt="" class="navbar-list__item-img" >
+                                        <div class="navbar-list__nickmane">
+                                            <div class="navbar-list__name">Lynk Lee</div>
+                                            <div class="navbar-list__artist">Nghệ sĩ</div>
+                                        </div>
+                                    </a>
+                                </i>
+
+                                <i class="navbar-list__item">
+                                    <a href="" class="navbar-list__item-link">
+                                        <img src="./assets/img/datg.jpg" alt="" class="navbar-list__item-img" >
+                                        <div class="navbar-list__nickmane">
+                                            <div class="navbar-list__name">Đạt G</div>
+                                            <div class="navbar-list__artist">Nghệ sĩ</div>
+                                        </div>
+                                    </a>
+                                </i>
+
+                                <i class="navbar-list__item">
+                                    <a href="" class="navbar-list__item-link">
+                                        <img src="./assets/img/denvau.jpg" alt="" class="navbar-list__item-img" >
+                                        <div class="navbar-list__nickmane">
+                                            <div class="navbar-list__name">Đen Vâu</div>
+                                            <div class="navbar-list__artist">Nghệ sĩ</div>
+                                        </div>
+                                    </a>
+                                </i>
+
+                                <i class="navbar-list__item">
+                                    <a href="" class="navbar-list__item-link">
+                                        <img src="./assets/img/luctran.jpg" alt="" class="navbar-list__item-img" >
+                                        <div class="navbar-list__nickmane">
+                                            <div class="navbar-list__name">Lực Trần</div>
+                                            <div class="navbar-list__artist">Nghệ sĩ</div>
+                                        </div>
+                                    </a>
+                                </i>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grip__column-8">
+                    <div class="container__right">
+                        <!--header-->
+                        <div class="heading">
+                            <div class="grid-right-15">
+                                <div class="heading__item1">
+                                    <div class="heading__directional">
+                                        <div class="heading__directional-icon">
+                                            <i class="heading__directional-icon-chevron fa-solid fa-chevron-left"></i>
+                                        </div>
+                                        <div class="heading__directional-icon">
+                                            <i class="heading__directional-icon-chevron fa-solid fa-chevron-right"></i>
+                                        </div>
+                                    </div>
+                
+                                    <div class="heading__Notification">
+                                        <span class="heading__Notification-item heading__Notification-discover">Khám phá Premium</span>
+                                        <span class="heading__Notification-item heading__Notification-download-app">
+                                            <i class="heading__Notification-down fa-regular fa-circle-down"></i>
+                                            Cài đặt ứng dụng
+                                        </span>
+                                        <span class="heading__Notification-item heading__Notification-bell" >
+                                            <i class="fa-regular fa-bell"></i>
+                                        </span>
+                                        
+                                        <img src="./assets/img/luctran.jpg" alt="" class="heading__Notification-item heading__Notification-img">
+                                        
+                                    </div>
+
+                                </div>
+
+                                <div class="heading__item2">
+                                    <div class="heading__text heading__text-white ">Tất cả</div>
+                                    <div class="heading__text">Nhạc</div>
+                                    <div class="heading__text">Podcasts</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--body list-->
+                        <div class="container__body">
+                            <div class="grid-right-15">
+                                <div class="container__albums">
+                                    <div class="container__albums-item">
+                                        <img src="./assets/img/albummtp.jpg" alt="" class="container__albums-img">
+                                        <span class="container__albums-text" >Kpop</span>
+                                        <div class="container__albums-play" >
+                                            <i class="container__albums-icon fa-sharp fa-solid fa-play"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="container__albums-item">
+                                        <img src="./assets/img/albumsobito.jpg" alt="" class="container__albums-img">
+                                        <span class="container__albums-text" >Vpop</span>
+                                        <div class="container__albums-play" >
+                                            <i class="container__albums-icon fa-sharp fa-solid fa-play"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="container__title">
+                                    <a href="" class="container__title-left">Dành cho Lực Trần</a>
+                                    <a href="" class="container__title-right"> Hiện tất cả</a>
+                                </div>
+                                <div class="container__list">
+                                    <div class="grid__column-8-5">
+                                        <div class="container__list-item">
+                                            <img src="./assets/img/denvau.jpg" alt="" class="container__list-img">
+                                            <div class="container__list-content">Daily Mix 1</div>
+                                            <div class="container__list-artist-name">Đức phúc, Binz, JustaTee và nhiều hơn nữa  sđsdfsd fd sf dsf ds fds f sdf ds f dsf ds fdsf d sf sd f </div>
+                                            <div class="container__play" >
+                                                <i class="container__play-icon fa-sharp fa-solid fa-play"></i>
+                                            </div>
+                                        </div>  
+                                    </div>  
+                                    
+                                    <div class="grid__column-8-5">
+                                        <div class="container__list-item">
+                                            <img src="./assets/img/denvau.jpg" alt="" class="container__list-img">
+                                            <div class="container__list-content">Daily Mix 1</div>
+                                            <div class="container__list-artist-name">Đức phúc, Binz, JustaTee và nhiều hơn nữa  sđsdfsd fd sf dsf ds fds f sdf ds f dsf ds fdsf d sf sd f </div>
+                                            <div class="container__play" >
+                                                <i class="container__play-icon fa-sharp fa-solid fa-play"></i>
+                                            </div>
+                                        </div>  
+                                    </div> 
+
+                                    <div class="grid__column-8-5">
+                                        <div class="container__list-item">
+                                            <img src="./assets/img/denvau.jpg" alt="" class="container__list-img">
+                                            <div class="container__list-content">Daily Mix 1</div>
+                                            <div class="container__list-artist-name">Đức phúc, Binz, JustaTee và nhiều hơn nữa  sđsdfsd fd sf dsf ds fds f sdf ds f dsf ds fdsf d sf sd f </div>
+                                            <div class="container__play" >
+                                                <i class="container__play-icon fa-sharp fa-solid fa-play"></i>
+                                            </div>
+                                        </div>  
+                                    </div> 
+
+                                    <div class="grid__column-8-5">
+                                        <div class="container__list-item">
+                                            <img src="./assets/img/denvau.jpg" alt="" class="container__list-img">
+                                            <div class="container__list-content">Daily Mix 1</div>
+                                            <div class="container__list-artist-name">Đức phúc, Binz, JustaTee và nhiều hơn nữa  sđsdfsd fd sf dsf ds fds f sdf ds f dsf ds fdsf d sf sd f </div>
+                                            <div class="container__play" >
+                                                <i class="container__play-icon fa-sharp fa-solid fa-play"></i>
+                                            </div>
+                                        </div>  
+                                    </div> 
+
+                                    <div class="grid__column-8-5">
+                                        <div class="container__list-item">
+                                            <img src="./assets/img/denvau.jpg" alt="" class="container__list-img">
+                                            <div class="container__list-content">Daily Mix 1</div>
+                                            <div class="container__list-artist-name">Đức phúc, Binz, JustaTee và nhiều hơn nữa  sđsdfsd fd sf dsf ds fds f sdf ds f dsf ds fdsf d sf sd f </div>
+                                            <div class="container__play" >
+                                                <i class="container__play-icon fa-sharp fa-solid fa-play"></i>
+                                            </div>
+                                        </div>  
+                                    </div> 
+
+
+                                    
+                                    
+                                </div>    
+
+                                <div class="container__title">
+                                    <a href="" class="container__title-left">Dành cho Lực Trần</a>
+                                    <a href="" class="container__title-right"> Hiện tất cả</a>
+                                </div>
+                                <div class="container__list">
+                                    <div class="grid__column-8-5">
+                                        <div class="container__list-item">
+                                            <img src="./assets/img/denvau.jpg" alt="" class="container__list-img">
+                                            <div class="container__list-content">Daily Mix 1</div>
+                                            <div class="container__list-artist-name">Đức phúc, Binz, JustaTee và nhiều hơn nữa  sđsdfsd fd sf dsf ds fds f sdf ds f dsf ds fdsf d sf sd f </div>
+                                            <div class="container__play" >
+                                                <i class="container__play-icon fa-sharp fa-solid fa-play"></i>
+                                            </div>
+                                        </div>  
+                                    </div>  
+                                    
+                                    <div class="grid__column-8-5">
+                                        <div class="container__list-item">
+                                            <img src="./assets/img/denvau.jpg" alt="" class="container__list-img">
+                                            <div class="container__list-content">Daily Mix 1</div>
+                                            <div class="container__list-artist-name">Đức phúc, Binz, JustaTee và nhiều hơn nữa  sđsdfsd fd sf dsf ds fds f sdf ds f dsf ds fdsf d sf sd f </div>
+                                            <div class="container__play" >
+                                                <i class="container__play-icon fa-sharp fa-solid fa-play"></i>
+                                            </div>
+                                        </div>  
+                                    </div> 
+
+                                    <div class="grid__column-8-5">
+                                        <div class="container__list-item">
+                                            <img src="./assets/img/denvau.jpg" alt="" class="container__list-img">
+                                            <div class="container__list-content">Daily Mix 1</div>
+                                            <div class="container__list-artist-name">Đức phúc, Binz, JustaTee và nhiều hơn nữa  sđsdfsd fd sf dsf ds fds f sdf ds f dsf ds fdsf d sf sd f </div>
+                                            <div class="container__play" >
+                                                <i class="container__play-icon fa-sharp fa-solid fa-play"></i>
+                                            </div>
+                                        </div>  
+                                    </div> 
+
+                                    <div class="grid__column-8-5">
+                                        <div class="container__list-item">
+                                            <img src="./assets/img/denvau.jpg" alt="" class="container__list-img">
+                                            <div class="container__list-content">Daily Mix 1</div>
+                                            <div class="container__list-artist-name">Đức phúc, Binz, JustaTee và nhiều hơn nữa  sđsdfsd fd sf dsf ds fds f sdf ds f dsf ds fdsf d sf sd f </div>
+                                            <div class="container__play" >
+                                                <i class="container__play-icon fa-sharp fa-solid fa-play"></i>
+                                            </div>
+                                        </div>  
+                                    </div> 
+
+                                    <div class="grid__column-8-5">
+                                        <div class="container__list-item">
+                                            <img src="./assets/img/denvau.jpg" alt="" class="container__list-img">
+                                            <div class="container__list-content">Daily Mix 1</div>
+                                            <div class="container__list-artist-name">Đức phúc, Binz, JustaTee và nhiều hơn nữa  sđsdfsd fd sf dsf ds fds f sdf ds f dsf ds fdsf d sf sd f </div>
+                                            <div class="container__play" >
+                                                <i class="container__play-icon fa-sharp fa-solid fa-play"></i>
+                                            </div>
+                                        </div>  
+                                    </div>      
+                                </div> 
+
+                                <div class="container__title">
+                                    <a href="" class="container__title-left">Dành cho Lực Trần</a>
+                                    <a href="" class="container__title-right"> Hiện tất cả</a>
+                                </div>
+                                <div class="container__list">
+                                    <div class="grid__column-8-5">
+                                        <div class="container__list-item">
+                                            <img src="./assets/img/denvau.jpg" alt="" class="container__list-img">
+                                            <div class="container__list-content">Daily Mix 1</div>
+                                            <div class="container__list-artist-name">Đức phúc, Binz, JustaTee và nhiều hơn nữa  sđsdfsd fd sf dsf ds fds f sdf ds f dsf ds fdsf d sf sd f </div>
+                                            <div class="container__play" >
+                                                <i class="container__play-icon fa-sharp fa-solid fa-play"></i>
+                                            </div>
+                                        </div>  
+                                    </div>  
+                                    
+                                    <div class="grid__column-8-5">
+                                        <div class="container__list-item">
+                                            <img src="./assets/img/denvau.jpg" alt="" class="container__list-img">
+                                            <div class="container__list-content">Daily Mix 1</div>
+                                            <div class="container__list-artist-name">Đức phúc, Binz, JustaTee và nhiều hơn nữa  sđsdfsd fd sf dsf ds fds f sdf ds f dsf ds fdsf d sf sd f </div>
+                                            <div class="container__play" >
+                                                <i class="container__play-icon fa-sharp fa-solid fa-play"></i>
+                                            </div>
+                                        </div>  
+                                    </div> 
+
+                                    <div class="grid__column-8-5">
+                                        <div class="container__list-item">
+                                            <img src="./assets/img/denvau.jpg" alt="" class="container__list-img">
+                                            <div class="container__list-content">Daily Mix 1</div>
+                                            <div class="container__list-artist-name">Đức phúc, Binz, JustaTee và nhiều hơn nữa  sđsdfsd fd sf dsf ds fds f sdf ds f dsf ds fdsf d sf sd f </div>
+                                            <div class="container__play" >
+                                                <i class="container__play-icon fa-sharp fa-solid fa-play"></i>
+                                            </div>
+                                        </div>  
+                                    </div> 
+
+                                    <div class="grid__column-8-5">
+                                        <div class="container__list-item">
+                                            <img src="./assets/img/denvau.jpg" alt="" class="container__list-img">
+                                            <div class="container__list-content">Daily Mix 1</div>
+                                            <div class="container__list-artist-name">Đức phúc, Binz, JustaTee và nhiều hơn nữa  sđsdfsd fd sf dsf ds fds f sdf ds f dsf ds fdsf d sf sd f </div>
+                                            <div class="container__play" >
+                                                <i class="container__play-icon fa-sharp fa-solid fa-play"></i>
+                                            </div>
+                                        </div>  
+                                    </div> 
+
+                                    <div class="grid__column-8-5">
+                                        <div class="container__list-item">
+                                            <img src="./assets/img/denvau.jpg" alt="" class="container__list-img">
+                                            <div class="container__list-content">Daily Mix 1</div>
+                                            <div class="container__list-artist-name">Đức phúc, Binz, JustaTee và nhiều hơn nữa  sđsdfsd fd sf dsf ds fds f sdf ds f dsf ds fdsf d sf sd f </div>
+                                            <div class="container__play" >
+                                                <i class="container__play-icon fa-sharp fa-solid fa-play"></i>
+                                            </div>
+                                        </div>  
+                                    </div>     
+                                </div> 
+
+                                <div class="container__title">
+                                    <a href="" class="container__title-left">Dành cho Lực Trần</a>
+                                    <a href="" class="container__title-right"> Hiện tất cả</a>
+                                </div>
+                                <div class="container__list">
+                                    <div class="grid__column-8-5">
+                                        <div class="container__list-item">
+                                            <img src="./assets/img/denvau.jpg" alt="" class="container__list-img">
+                                            <div class="container__list-content">Daily Mix 1</div>
+                                            <div class="container__list-artist-name">Đức phúc, Binz, JustaTee và nhiều hơn nữa  sđsdfsd fd sf dsf ds fds f sdf ds f dsf ds fdsf d sf sd f </div>
+                                            <div class="container__play" >
+                                                <i class="container__play-icon fa-sharp fa-solid fa-play"></i>
+                                            </div>
+                                        </div>  
+                                    </div>  
+                                    
+                                    <div class="grid__column-8-5">
+                                        <div class="container__list-item">
+                                            <img src="./assets/img/denvau.jpg" alt="" class="container__list-img">
+                                            <div class="container__list-content">Daily Mix 1</div>
+                                            <div class="container__list-artist-name">Đức phúc, Binz, JustaTee và nhiều hơn nữa  sđsdfsd fd sf dsf ds fds f sdf ds f dsf ds fdsf d sf sd f </div>
+                                            <div class="container__play" >
+                                                <i class="container__play-icon fa-sharp fa-solid fa-play"></i>
+                                            </div>
+                                        </div>  
+                                    </div> 
+
+                                    <div class="grid__column-8-5">
+                                        <div class="container__list-item">
+                                            <img src="./assets/img/denvau.jpg" alt="" class="container__list-img">
+                                            <div class="container__list-content">Daily Mix 1</div>
+                                            <div class="container__list-artist-name">Đức phúc, Binz, JustaTee và nhiều hơn nữa  sđsdfsd fd sf dsf ds fds f sdf ds f dsf ds fdsf d sf sd f </div>
+                                            <div class="container__play" >
+                                                <i class="container__play-icon fa-sharp fa-solid fa-play"></i>
+                                            </div>
+                                        </div>  
+                                    </div> 
+
+                                    <div class="grid__column-8-5">
+                                        <div class="container__list-item">
+                                            <img src="./assets/img/denvau.jpg" alt="" class="container__list-img">
+                                            <div class="container__list-content">Daily Mix 1</div>
+                                            <div class="container__list-artist-name">Đức phúc, Binz, JustaTee và nhiều hơn nữa  sđsdfsd fd sf dsf ds fds f sdf ds f dsf ds fdsf d sf sd f </div>
+                                            <div class="container__play" >
+                                                <i class="container__play-icon fa-sharp fa-solid fa-play"></i>
+                                            </div>
+                                        </div>  
+                                    </div> 
+
+                                    <div class="grid__column-8-5">
+                                        <div class="container__list-item">
+                                            <img src="./assets/img/denvau.jpg" alt="" class="container__list-img">
+                                            <div class="container__list-content">Daily Mix 1</div>
+                                            <div class="container__list-artist-name">Đức phúc, Binz, JustaTee và nhiều hơn nữa  sđsdfsd fd sf dsf ds fds f sdf ds f dsf ds fdsf d sf sd f </div>
+                                            <div class="container__play" >
+                                                <i class="container__play-icon fa-sharp fa-solid fa-play"></i>
+                                            </div>
+                                        </div>  
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <div class="footer">
+            <div class="grid_1">
+                <div class="footer__music">
+                    <div class="footer__music-pictue" >
+                        <img src="/assets/img/albummtp.jpg" alt="" class="footer__music-img">
+                        <div class="footer__music-icon" >              
+                            <i class="footer__music-icon-chevron fa-solid fa-chevron-up"></i>
+                            <div class="footer__music-icon-note">Mở rộng</div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="footer__music-song">
+                        <a href="" class="footer__music-song-name">Từng Quên </a>
+                        <a href="" class="footer__music-singer-name"> Wren Evan, isnk</a>
+                    </div>
+                    <div class="footer__music-heart">
+                        <div class="footer__music-note-heart" >Lưu vào thư viện</div>
+                        <i class="footer__music-icon-heart fa-regular fa-heart"></i>
+                    </div>
+                </div>
+    
+                <div class="footer__audio">
+                    <div class="footer__audio-top">
+                        <i class="footer__audio-icon footer__audio-icon-fa fa-solid fa-shuffle"></i>
+                        <i class="footer__audio-icon footer__audio-step fa-solid fa-backward-step"></i>
+                        <i class="footer__audio-pause fa-solid fa-circle-pause"></i>
+                        <i class="footer__audio-icon footer__audio-step fa-solid fa-forward-step"></i>
+                        <i class="footer__audio-icon footer__audio-icon-fa fa-solid fa-repeat"></i>
+                    </div>
+    
+                    <div class="footer__audio-bottom">
+                        <span class="footer__audio-bottom-minute" >1:52</span>
+                        <span class="footer__audio-long"></span>
+                        <span class="footer__audio-bottom-minute">4:20</span>
+                    </div>
+                </div>
+                <div class="footer__action">
+                    <div class="footer__action-icon-item ">
+                        <div class="footer__action-icon-play-note">Chế độ xem đang phát</div>
+                        <i class="footer__action-icon fa-sharp fa-solid fa-play"></i>
+                    </div>
+                    <div class="footer__action-icon-item ">
+                        <div class="footer__action-icon-microphone-note">Lời bài hát</div>
+                        <i class="footer__action-icon fa-solid fa-microphone"></i>
+                    </div>
+                    <div class="footer__action-icon-item ">
+                        <div class="footer__action-icon-list-note">Danh sách chờ</div>
+                        <i class="footer__action-icon fa-solid fa-bars-staggered"></i>
+                    </div>
+                    <div class="footer__action-icon-item ">
+                        <div class="footer__action-icon-computer-note">Kết nối với thiết bị khác</div>
+                        <i class="footer__action-icon fa-solid fa-computer"></i>
+                    </div>
+                    <div class="footer__action-icon-item ">
+                        <div class="footer__action-icon-volume-note">Tắt tiếng</div>
+                        <i class="footer__action-icon fa-solid fa-volume-high"></i>
+                    </div>
+                    <div class="footer__action-icon-item ">
+                        <div class="footer__action-icon-expand-note">Mở trình phát thu nhỏ</div>
+                        <i class="footer__action-icon fa-solid fa-expand"></i>
+                    </div>
+                    <div class="footer__action-icon-item ">
+                        <div class="footer__action-icon-enlarge-note">Toàn màn hình</div>
+                        <i class="footer__action-icon fa-solid fa-up-right-and-down-left-from-center"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
